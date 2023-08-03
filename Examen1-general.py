@@ -41,6 +41,7 @@ b) Dada una lista de palabras, crea una nueva lista que contenga la longitud de 
 #empezando 
 
 lista=[1,2,3,4,5]
+print(len(lista))
 suma=0
 for i in lista:
     suma+=i
@@ -48,8 +49,11 @@ print(suma)
 #falta con lambda 
 
 palabras=['amor', 'felicidad', 'tranquilidad']
+new_words=[len(j) for j in palabras]
+print(new_words)
 
-print(len(palabras))
 
-new_words=[]
+
+
+
 
