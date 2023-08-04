@@ -37,8 +37,6 @@ b) Lee el contenido del archivo que creaste y muestra su contenido por pantalla.
 Listas y Bucles:
 a) Dada una lista de números, calcula la suma de todos los elementos.
 b) Dada una lista de palabras, crea una nueva lista que contenga la longitud de cada palabra.
-'''
-#empezando 
 
 lista=[1,2,3,4,5]
 print(len(lista))
@@ -51,6 +49,33 @@ print(suma)
 palabras=['amor', 'felicidad', 'tranquilidad']
 new_words=[len(j) for j in palabras]
 print(new_words)
+
+'''
+
+#empezando 
+
+'''
+Tuplas y Operaciones:
+a) Crea una tupla con números enteros de tu elección y calcula su suma y su producto.
+b) Crea dos tuplas y combínalas para formar una nueva tupla.
+'''
+tuplas_1=(2,3,6,9)
+tuplas_2=(5,8,6,3,7,12)
+suma=0
+
+for i in tuplas_1:
+    suma+=i
+print(f'la suma es igual a {suma}')
+
+new=(tuple(zip(tuplas_1,tuplas_2)))
+print(new)
+
+
+
+
+
+
+
 
 
 
