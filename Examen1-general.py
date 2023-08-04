@@ -69,6 +69,16 @@ print(f'la suma es igual a {suma}')
 
 new=(tuple(zip(tuplas_1,tuplas_2)))
 print(new)
+'''
+Diccionarios y Bucles:
+a) Crea un diccionario con nombres de países como claves y sus capitales como valores.
+b) Dada una lista de números, crea un diccionario donde las claves sean los números y los valores sean sus cuadrados.7
+'''
+#Empezando. 
+
+
+
+
 
 
 
