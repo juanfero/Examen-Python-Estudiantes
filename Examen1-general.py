@@ -102,6 +102,26 @@ print(set_1|set_2)
 print(set_1 & set_2)
 
 
+'''
+Condicionales:
+a) Escribe un programa que tome un número y determine si es par o impar.
+b) Escribe un programa que tome una edad y determine si es un niño (menor de 12 años), adolescente (entre 12 y 18 años) o adulto.
+'''
+num=int(input(' digite el numero: '))
+if num %2==0 :
+    print('par')
+else:
+    print('impar')
+
+edad=10
+if edad < 12:
+    print('niño')
+elif 12<edad>18:
+    print('adolecente')
+else:
+    print('adulto')
+
+
 
 
 
