@@ -75,6 +75,33 @@ a) Crea un diccionario con nombres de países como claves y sus capitales como v
 b) Dada una lista de números, crea un diccionario donde las claves sean los números y los valores sean sus cuadrados.7
 '''
 #Empezando. 
+paises={
+    'Colombia': 'Bogotá',
+    'Francia':'Paris', 
+    'Usa': 'Washinton'
+}
+print(paises)
+
+numeros=[1,2,3,4,5,6]
+diccionario={k:k*2 for k in numeros}
+print(diccionario)
+
+
+'''
+Sets y Operaciones:
+a) Dada una lista de números duplicados, crea un set que contenga solo los valores únicos.
+b) Crea dos sets y encuentra la intersección y la unión de ambos.
+'''
+sets=[1,6,5,3,3,1,2,8,3,5]
+print(set(sets))
+
+set_1={1,6,32,56,3,1,5,9,5}
+set_2={9,2,1,78,54,3,5,21}
+
+print(set_1|set_2)
+print(set_1 & set_2)
+
+
 
 
 
